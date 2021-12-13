@@ -1,4 +1,4 @@
-.overlay{
+/* .overlay{
     position: absolute;
     z-index: 25;
     top:15vh;
@@ -60,26 +60,173 @@
   .overlay.in.visible {
     opacity: 1;
     transform: translateY(0);
-    /* background-color: rebeccapurple; */
-    background-color: transparent;
   }
 
   .overlay-ease-in.in.visible {
     opacity: 1;
     transform: translateY(0);
-    /* background-color: rebeccapurple; */
-    background-color: transparent;
+    
   }
   .overlay-ease-out.in.visible {
     opacity: 1;
     transform: translateY(0);
-    /* background-color: rebeccapurple; */
-    background-color: transparent;
   }
   .overlay-ease-in-out.in.visible {
     opacity: 1;
     transform: translateY(0);
-    /* background-color: rebeccapurple; */
-    background-color: transparent;
+  }
+*/
+
+
+  /* Default overlay*/
+  .overlay-default{
+    position: absolute;
+      z-index: 25;
+      top:15vh;
+      width: 50%;
+      left:25%;  
+      margin: 0 auto;
+      opacity: 0;
+      transform: translateY(15px);
+      transition: opacity 1s ease,transform 0.5s ease; 
+  }
+
+
+  .overlay-default-ease-in{
+    position: absolute;
+    z-index: 25;
+    top:15vh;
+    width: 50%;
+    left:25%;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 1s ease,transform 0.5s ease-in; 
+  }
+  .overlay-default-ease-out{
+    position: absolute;
+    z-index: 25;
+    top:15vh;
+    width: 50%;
+    left:25%;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 1s ease,transform 0.5s ease-out; 
   }
   
+  .overlay-default-ease-in-out{
+    position: absolute;
+    z-index: 25;
+    top:15vh;
+    width: 50%;
+    left:25%;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 1s ease,transform 0.5s ease-in-out; 
+  }
+  
+
+  .overlay-default.in.visible {
+    opacity: 1;
+    transform: translateY(0);
+    
+    
+  }
+
+  .overlay-default-ease-in.in.visible {
+    opacity: 1;
+    transform: translateY(0);
+    
+    background-color: transparent;
+  }
+  .overlay-default-ease-out.in.visible {
+    opacity: 1;
+    transform: translateY(0);
+    
+    background-color: transparent;
+  }
+  .overlay-default-ease-in-out.in.visible {
+    opacity: 1;
+    transform: translateY(0);
+    
+    background-color: transparent;
+  }
+
+
+  /*Positioned overlay*/
+
+  .overlay{
+    position: fixed;
+    z-index: 25;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+    top:0;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 1s ease,transform 0.5s ease; 
+}
+
+
+.overlay-ease-in{
+  position: fixed;
+  z-index: 25;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  top:0;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 1s ease,transform 0.5s ease-in; 
+}
+.overlay-ease-out{
+  position: fixed;
+  z-index: 25;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  top:0;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 1s ease,transform 0.5s ease-out; 
+}
+
+.overlay-ease-in-out{
+  position: fixed;
+  z-index: 25;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  top:0;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 1s ease,transform 0.5s ease-in-out; 
+}
+
+
+.overlay.in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.overlay-ease-in.in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  /* background-color: transparent; */
+}
+.overlay-ease-out.in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  /* background-color: transparent; */
+}
+.overlay-ease-in-out.in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  /* background-color: transparent; */
+}
