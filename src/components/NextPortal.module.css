@@ -78,8 +78,8 @@
 */
 
 
-  /* Default overlay*/
-  .overlay-default{
+   /* Default overlay*/
+   .overlay-default{
     position: absolute;
       z-index: 25;
       top:15vh;
