@@ -12,7 +12,7 @@ The absense of `index.js` in NextJS makes it cumbersome to setup a react portal.
 NextPortal can currently be installed only using `npm`. Soon, the support will be extended to `yarn` as well.
 
 ```
-npm install --save @nextportal 
+npm install --save nextportal 
 ```
 
 ## Usage
