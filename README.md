@@ -199,5 +199,5 @@ The enclosed element should look something like this:
 ```
 
 ## Contribution
-Contributions are always welcome.  If you've got any feature ideas or find a bug, kindly submit a PR with the description of the bug/feature addition and I shall review and get it fixed/added at the earliest with the incremented version.
-The current version only supports NextJS projects setup with JavaScript, although it could be configured to work with TypeScript, but that'd require some boilerplate code. So adding the compatibility with TS is something nice to start with. The current version has limited transition styles, addtional transition styles can also be submitted as a contribution.
+Contributions are always welcome.  If you've got any feature ideas or find a bug, kindly submit a PR with the code and description of the bug/feature addition and I shall review and get it fixed/added at the earliest and publish the same with an incremented version.
+The current version only supports NextJS projects setup with JavaScript, although it could be configured to work with TypeScript, but that'd require some boilerplate code. So adding the compatibility with TS is something nice to begin with. The current version has limited transition styles, addtional transition styles can also be submitted as a contribution.
