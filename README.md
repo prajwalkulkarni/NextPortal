@@ -1,6 +1,6 @@
 # NextPortal
 
-[![](https://img.shields.io/badge/npm-v1.0.0-blue)]()&nbsp;[![NextJS](https://img.shields.io/badge/-NextJS-%23000)](nextjs.org)&nbsp;[](https://github.com/prajwalkulkarni/NextPortal/issues)![GitHub issues](https://img.shields.io/github/issues/prajwalkulkarni/NextPortal)&nbsp;[![](https://img.shields.io/badge/license-BSD--3-lightgrey)]()
+[![](https://img.shields.io/badge/npm-v1.0.3-blue)]()&nbsp;[![NextJS](https://img.shields.io/badge/-NextJS-%23000)](nextjs.org)&nbsp;[](https://github.com/prajwalkulkarni/NextPortal/issues)![GitHub issues](https://img.shields.io/github/issues/prajwalkulkarni/NextPortal)&nbsp;[![](https://img.shields.io/badge/license-BSD--3-lightgrey)]()
 
 
 <b>NextPortal</b> is a lightweight and easy-to-use portal component for NextJS.

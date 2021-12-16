@@ -1,6 +1,6 @@
 {
   "name": "nextportal",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A lightweight and performant package to render portals in NextJS with transitions.",
   "main": "./src/components/NextPortal.js",
   "scripts": {
