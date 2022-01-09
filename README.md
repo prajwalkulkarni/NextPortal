@@ -6,7 +6,12 @@
 <b>NextPortal</b> is a lightweight and easy-to-use portal component for NextJS.
 The absence of `index.js` in NextJS makes it cumbersome to setup a react portal. Since NextJS follows SSG and SSR, it is also important to ensure that portals are created and dealt with only on the client-side. And, if you somehow manage to configure this, there is this issue of applying transitions on the created/removed portal correctly. Keeping these problems in mind, NextPortal was created to address these issues and setup a portal on the go.
 
+----
+### What's new
 
+Added Type definitions for TypeScript compatibility - NextPortal(v1.1.0)
+
+----
 
 ## Installation
 NextPortal can be installed using `npm` or `yarn`.
