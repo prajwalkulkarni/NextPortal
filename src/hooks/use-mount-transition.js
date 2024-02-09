@@ -2,12 +2,11 @@ import {useEffect, useState} from 'react'
 export default function useTransitionOnMount(hasMounted,unmountDelay){
       
   const [hasTransitionedIn,setTransition] = useState(false)
-  // console.log("Use transiton on mount triggered")
+      
   useEffect(()=>{
     let timeout 
     // console.log("Use effect triggered") 
     if(hasMounted && !hasTransitionedIn){
-      
       setTransition(true)
     }
     else if(!hasMounted && hasTransitionedIn){
