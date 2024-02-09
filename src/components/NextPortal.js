@@ -5,16 +5,13 @@ import styles from './NextPortal.module.css'
 import useTransitionOnMount from '../hooks/use-mount-transition'
 import {usePortal} from '../hooks/use-portal'
 
-var baseClassName
+let baseClassName
 export default function NextPortal(props){
     
     const {show:isMounted,delay} = props
-
     
-
     useEffect(()=>{
         baseClassName = getClassName(props)
-
     },[])
     
     try{
@@ -29,7 +26,6 @@ export default function NextPortal(props){
     const isTransitioned = useTransitionOnMount(isMounted, delay||1000)
     const rootContainer = usePortal("overlay",isMounted,isTransitioned)
     
-    // console.log(rootContainer)
     return rootContainer ? ReactDOM.createPortal(
         <React.Fragment>
             {isMounted && <Backdrop isMounted={isMounted} onClick={props.onClick} />}
@@ -40,9 +36,7 @@ export default function NextPortal(props){
             }
         </React.Fragment>, rootContainer)
         : null
-
 }
-
 
 function getClassName(propVal){
 
@@ -60,8 +54,7 @@ function getClassName(propVal){
         }
         else{
             style = 'overlay'
-        }
-        
+        }       
     }
     else{
         if(propVal.easeIn){
@@ -75,11 +68,8 @@ function getClassName(propVal){
         }
         else{
             style = 'overlay-default'
-        }
-    
+        }   
     }
-    
     return style
-
 }
 
